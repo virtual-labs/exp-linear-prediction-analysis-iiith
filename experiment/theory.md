@@ -63,11 +63,11 @@ Figure 7: (a) Segment of unvoiced speech /s/ and its (b) autocorrelation functio
 
 ### Glottal pulse shape in voiced portion of a speech signal
 
-        - By integrating the LP residual we can obtain the glottal pulse shape, it is also known as glottal volume velocity.
-        - A segment of voiced speech its LP residual and glottal pulse (glottal volume velocity) waveforms are shown in Figure 8.
+- By integrating the LP residual we can obtain the glottal pulse shape, it is also known as glottal volume velocity.
+- A segment of voiced speech its LP residual and glottal pulse (glottal volume velocity) waveforms are shown in Figure 8.
 <center><img src="images/img11.png"> <br></p> </center>
     
-    Figure 8: (a) Segment of voiced speech /a/, its (b) LP residual and (c) glottal pulse waveform (LP order: 10).
+  Figure 8: (a) Segment of voiced speech /a/, its (b) LP residual and (c) glottal pulse waveform (LP order: 10).
 
 
 
