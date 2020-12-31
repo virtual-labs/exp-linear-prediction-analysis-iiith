@@ -1,6 +1,3 @@
-### Procedure
-
-
 - Step1: Select one of the audio/waveform file provided speech utterances from the given dropdown.
 
 - Step2: Click on the 'Generate Spectrum' button. The 'Windowed Waveform' signal, the 'Log Spectrum', the 'LP Residual' and the 'LP Spectrum' are displayed.

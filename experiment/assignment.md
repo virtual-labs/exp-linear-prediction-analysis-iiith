@@ -1,6 +1,3 @@
-### Assignment
-
-
 1. What is the minimum number of speech samples required to compute the LP coefficients of order p?
 2. Explain the differences between autocorrelation and autcovariance formulations of LP analysis? Which is better and why?
 3. Suggest an algorithm for voiced/non-voiced region separation using:

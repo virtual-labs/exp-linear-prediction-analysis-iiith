@@ -1,5 +1,3 @@
-### Observations
-
 - Short time spectrum gives both source and system information. The envelope of the spectrum gives system information (i.e., resonances in terms of formant frequencies) and spectral ripples (fine variations) give source information (i.e., pitch harmonics). It is a real and even function of Ď.
 
 - The linear prediction (LP) analysis models the vocal tract system. LP spectrum is observed to be an envelope of short time spectrum (smoothed version of short time spectrum) and the peaks in LP spectrum indicate the formant frequencies (resonances) of the vocal tract system. With observation it is evident that the LP spectrum is derived from an all-pole filter.

@@ -1,3 +1,1 @@
-## Experiment name
-
-Linear Prediction Analysis of Speech
+## Linear Prediction Analysis of Speech
