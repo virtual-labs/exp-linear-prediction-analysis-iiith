@@ -22,25 +22,25 @@
 - In LP residual, the correlation among the samples is less, therefore its autocorrelation function contains the peaks at pitch rate. Hence autocorrelation function of a LP residual is useful for pitch computation.
 
 
-The autocorrelation function of an unvoiced speech segment shows a major peak at the center and other peaks are not significant, since unvoiced speech signal appears like random signal.
+- The autocorrelation function of an unvoiced speech segment shows a major peak at the center and other peaks are not significant, since unvoiced speech signal appears like random signal.
 
-The autocorrelation function for the LP residual of an unvoiced speech segment shows a dominant peak at the center and no other peaks in rest of the portion. This is because, unvoiced speech itself looks like random (no correlation among the samples) and its residual reflects still random.
-
-
-Glottal pulse shape shows the change in volume of air. It is also referred to as glottal volume velocity.
+- The autocorrelation function for the LP residual of an unvoiced speech segment shows a dominant peak at the center and no other peaks in rest of the portion. This is because, unvoiced speech itself looks like random (no correlation among the samples) and its residual reflects still random.
 
 
-From the glottal pulse waveform, it is observed that volume of air and its pressure will be maximum at the instant of closure. Following this is the opening of the vocal folds, as a result of which the air pressure decreases.
-
-LP order determines to some extent the accuracy with which speech production mechanism is modeled.
+- Glottal pulse shape shows the change in volume of air. It is also referred to as glottal volume velocity.
 
 
-LP analysis uses an all-pole model to characterize the vocal tract system by capturing the resonances with spectrum and source information with LP residual (inverse filter i.e., all-zero filter).
+- From the glottal pulse waveform, it is observed that volume of air and its pressure will be maximum at the instant of closure. Following this is the opening of the vocal folds, as a result of which the air pressure decreases.
+
+- LP order determines to some extent the accuracy with which speech production mechanism is modeled.
 
 
-LP order determines the number of resonances that can be captured by the model. The maximum number of resonances captured by the model with LP order P is P/2.
+- LP analysis uses an all-pole model to characterize the vocal tract system by capturing the resonances with spectrum and source information with LP residual (inverse filter i.e., all-zero filter).
 
 
-The length of the vocal tract from glottis to lips is approximately 17 cm. This can generate four to five prominent resonances in 0-4 KHz range. These resonances can be captured with the LP model of order 10. We also should take care of radiation and windowing effects. Therefore with LP order 10-14 we can model the system by capturing required resonances. 
+- LP order determines the number of resonances that can be captured by the model. The maximum number of resonances captured by the model with LP order P is P/2.
 
-System with LP order more than 14 will introduce the spurious resonances, which leads improper representation of the vocal tract system.
+
+- The length of the vocal tract from glottis to lips is approximately 17 cm. This can generate four to five prominent resonances in 0-4 KHz range. These resonances can be captured with the LP model of order 10. We also should take care of radiation and windowing effects. Therefore with LP order 10-14 we can model the system by capturing required resonances. 
+
+- System with LP order more than 14 will introduce the spurious resonances, which leads improper representation of the vocal tract system.
